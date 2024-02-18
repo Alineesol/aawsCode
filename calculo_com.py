@@ -1,10 +1,7 @@
-
 import pandas as pd
 from datetime import datetime
 import logging
 import re
-
-
 
 # TAREFA 1: CALCULO DE COMISSÕES
 def calcula_comissao():
@@ -43,40 +40,32 @@ def calcula_comissao():
         logging.exception(error)
         log_falhas[datetime.now().strftime('%Y-%m-%d %H:%M:%S')] = error
 
-
+# TAREFA 2 - Verifica pagamentos incorretos
 def valida_pagamentos(df_vendas):
-
-    # Comparar os valores pagos aos vendedores com os valores calculados na Tarefa 1.
-    # Identificar os pagamentos feitos incorretamente e o valor incorreto transferido.
-
     try:
         # tive que utilizar o index_col para que o df não utilizasse o nome da coluna como indice.
         # Estava acusando um erro no incio por ele não estar encontrando o nome da coluna "Nome do Vendedor" quando não utilizei a função
         df_original = pd.read_excel('Vendas_aaws.xlsx', sheet_name=None, index_col=None)
         df_pagamentos = df_original['Pagamentos']
         
-
         df_mesclado = pd.merge(df_pagamentos, df_vendas, on='Nome do Vendedor', how='right')
         df_mesclado = df_mesclado[df_mesclado['Comissão'] != df_mesclado['Valor a Receber']][['Nome do Vendedor','Comissão','Valor a Receber']]
     
         print(df_mesclado)
-        
         return df_mesclado
     
     except BaseException as error:
         logging.exception(error)
         log_falhas[datetime.now().strftime('%Y-%m-%d %H:%M:%S')] = error
     
-
+# TAREFA 3 - Buscar o nome dos sócios e suas cotas
 def contrato_partnership():
-
     try:
         with open('Partnership.txt','r') as arq:
             contrato = arq.readlines()
     except BaseException as erro:
         logging.exception(erro)
         log_falhas[datetime.now().strftime('%Y-%m-%d %H:%M:%S')] = erro
-
 
     lista_socios = []
     for linha in contrato:
@@ -86,10 +75,8 @@ def contrato_partnership():
         except BaseException as e:
             log_falhas[datetime.now().strftime('%Y-%m-%d %H:%M:%S')] = e
             print('Falha na iteração.. pulando para a proxima linha!')
-
-
+            
     cotas_socios = []
-    
     # foi encontrado um padrão no nome de cada socio, onde o nome sempre começa a partir de um . e temrina após a ,
     padrao_nomes_socios = r'\.\s(.*?),'
     # O padrão encontrado nas cotas é que ele sempre é a ultima palavra de cada linha e está entre uma , e um .
@@ -106,7 +93,6 @@ def contrato_partnership():
     print(cotas_socios)
     return cotas_socios
 
-
 def main():
 
     global log_falhas
@@ -117,13 +103,7 @@ def main():
         cotas_socios = contrato_partnership()
     except BaseException as e:
         log_falhas[datetime.now().strftime('%Y-%m-%d %H:%M:%S')] = e
-
-    pass
-    print()
-
-
-
-
+    print(log_falhas)
 
 if __name__ == "__main__":
     main()
