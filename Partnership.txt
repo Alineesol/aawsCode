@@ -1,0 +1,88 @@
+﻿**Contrato de Parceria (Partnership)**
+
+
+Este Contrato de Parceria ("Contrato") é celebrado em 16 de fevereiro de 2024, entre os seguintes sócios:
+
+
+1. João Silva, portador do CPF 123.456.789-00, residente em Rua das Flores, 123, doravante denominado "Sócio 1", detentor de 20 cotas.
+2. Maria Souza, portadora do CPF 987.654.321-00, residente em Avenida dos Anjos, 456, doravante denominada "Sócio 2", detentora de 15 cotas.
+3. Carlos Oliveira, portador do CPF 234.567.890-11, residente em Praça Central, 789, doravante denominado "Sócio 3", detentor de 10 cotas.
+4. Ana Santos, portadora do CPF 876.543.210-11, residente em Alameda das Estrelas, 567, doravante denominada "Sócio 4", detentora de 8 cotas.
+5. Pedro Costa, portador do CPF 345.678.901-22, residente em Travessa das Avenidas, 321, doravante denominado "Sócio 5", detentor de 6 cotas.
+6. Laura Ferreira, portadora do CPF 789.012.345-22, residente em Rua dos Pássaros, 987, doravante denominada "Sócio 6", detentora de 5 cotas.
+7. Rafael Mendes, portador do CPF 456.789.012-33, residente em Avenida dos Girassóis, 654, doravante denominado "Sócio 7", detentor de 4 cotas.
+8. Paula Lima, portadora do CPF 901.234.567-33, residente em Alameda dos Rios, 789, doravante denominada "Sócio 8", detentora de 3 cotas.
+9. José Almeida, portador do CPF 567.890.123-44, residente em Rua das Montanhas, 123, doravante denominado "Sócio 9", detentor de 2 cotas.
+10. Marina Oliveira, portadora do CPF 012.345.678-44, residente em Praça dos Lagos, 456, doravante denominada "Sócio 10", detentora de 1 cota.
+
+
+Os Sócios acima mencionados decidem, de comum acordo, estabelecer uma parceria com o propósito de desenvolver um software de gerenciamento de projetos.
+
+
+**Cláusula 1 - Objetivo**
+
+
+O objetivo desta Parceria é desenvolver um software de gerenciamento de projetos que otimize os processos de planejamento, execução e controle de projetos empresariais.
+
+
+**Cláusula 2 - Contribuições dos Sócios**
+
+
+Cada Sócio se compromete a contribuir com os recursos necessários para o desenvolvimento do software, conforme especificado abaixo:
+
+
+1. Sócio 1: Contribuição financeira no valor de R$ 10.000,00.
+2. Sócio 2: Desenvolvimento do banco de dados do software.
+3. Sócio 3: Desenvolvimento da interface do usuário.
+4. Sócio 4: Testes de qualidade e garantia de software.
+5. Sócio 5: Suporte técnico durante a fase de testes.
+6. Sócio 6: Marketing e promoção do software.
+7. Sócio 7: Aquisição de licenças de software necessárias.
+8. Sócio 8: Suporte administrativo e jurídico.
+9. Sócio 9: Pesquisa de mercado e análise de concorrência.
+10. Sócio 10: Gerenciamento de redes sociais e presença online.
+
+
+**Cláusula 3 - Distribuição de Lucros e Perdas**
+
+
+Os lucros e as perdas da Parceria serão distribuídos entre os Sócios de acordo com a proporção de suas cotas.
+
+
+**Cláusula 4 - Administração**
+
+
+A administração da Parceria será conduzida por João Silva, Maria Souza e Carlos Oliveira, que serão responsáveis por tomar decisões em nome da Parceria.
+
+
+**Cláusula 5 - Dissolução**
+
+
+Em caso de dissolução da Parceria, os ativos serão liquidados e os resultados serão distribuídos entre os Sócios de acordo com a proporção de suas cotas.
+
+
+**Cláusula 6 - Disposições Gerais**
+
+
+Qualquer modificação ou emenda a este Contrato deve ser feita por escrito e assinada por todos os Sócios.
+
+
+**Cláusula 7 - Lei Aplicável**
+
+
+Este Contrato será regido e interpretado de acordo com as leis do Estado de São Paulo.
+
+
+Em testemunho de sua concordância com os termos e condições acima, os Sócios assinam este Contrato na data e local mencionados abaixo.
+
+
+Assinaturas dos Sócios:
+
+
+[Nomes e Assinaturas dos Sócios]
+
+
+Data: 16 de fevereiro de 2024
+
+
+Local: São Paulo, Brasil
