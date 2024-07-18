@@ -5,10 +5,6 @@ import re
 
 # TAREFA 1: CALCULO DE COMISSÕES
 def calcula_comissao():
-
-    global log_falhas
-    log_falhas = {}
-
     try:
         df_original = pd.read_excel('Vendas_aaws.xlsx', sheet_name=None, index_col=None)
         df_vendas = df_original['Vendas']
@@ -94,7 +90,7 @@ def contrato_partnership():
     return cotas_socios
 
 def main():
-
+    # Variável criada para armazenar um log de possíveis erros
     global log_falhas
     log_falhas = {}
     try:
@@ -107,3 +103,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
